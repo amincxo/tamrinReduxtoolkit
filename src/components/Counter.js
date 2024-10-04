@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Counter() {
+export default function Counter() {
   return (
-    <div>Counter</div>
+    <div>Counasdfasdster</div>
   )
 }
 
-export default Counter
