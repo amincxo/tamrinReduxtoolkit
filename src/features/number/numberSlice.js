@@ -11,6 +11,9 @@ const numberSlice = createSlice({
         increment: state => {state.numberValue++;},
         decrement: state => {state.numberValue--;},
     },
+    extraReducers: {
+        ["counter/increment"] : (state) => {state.numberValue++},
+    },
 });
 
 export default numberSlice.reducer
